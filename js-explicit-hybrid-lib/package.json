@@ -1,6 +1,6 @@
 {
   "name": "@yellowcab/js-explicit-hybrid-lib",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple javascript library exporting dual module syntax with explicit package.json setup for each syntax",
   "main": "dist/cjs/index.js",
   "module": "dist/mjs/index.js",
