@@ -9,6 +9,7 @@
     "@yellowcab/js-commonjs-lib": "^1.0.1",
     "@yellowcab/js-esm-lib": "^1.0.1",
     "@yellowcab/js-explicit-hybrid-lib": "^1.0.4",
-    "@yellowcab/js-hybrid-lib": "^1.0.3"
+    "@yellowcab/js-hybrid-lib": "^1.0.3",
+    "@yellowcab/ts-hybrid-lib": "^1.0.0"
   }
 }
