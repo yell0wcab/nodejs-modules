@@ -1,12 +1,12 @@
 // If we try to run synchronous require(esm) it will fail for all Node versions <v23.
 //
-// /Users/luska/poc/npm/yellowcab/js-commonjs-playground/test-esm.js:1
+// /Users/---/poc/npm/yellowcab/js-commonjs-playground/test-esm.js:1
 // const { is_black, is_red } = require('@yellowcab/js-esm-lib');
 //                              ^
 //
-// Error [ERR_REQUIRE_ESM]: require() of ES Module /Users/luska/poc/npm/yellowcab/js-esm-lib/index.js from /Users/luska/poc/npm/yellowcab/js-commonjs-playground/test-esm.js not supported.
-// Instead change the require of index.js in /Users/luska/poc/npm/yellowcab/js-commonjs-playground/test-esm.js to a dynamic import() which is available in all CommonJS modules.
-//     at Object.<anonymous> (/Users/luska/poc/npm/yellowcab/js-commonjs-playground/test-esm.js:1:30) {
+// Error [ERR_REQUIRE_ESM]: require() of ES Module /Users/---/poc/npm/yellowcab/js-esm-lib/index.js from /Users/---/poc/npm/yellowcab/js-commonjs-playground/test-esm.js not supported.
+// Instead change the require of index.js in /Users/---/poc/npm/yellowcab/js-commonjs-playground/test-esm.js to a dynamic import() which is available in all CommonJS modules.
+//     at Object.<anonymous> (/Users/---/poc/npm/yellowcab/js-commonjs-playground/test-esm.js:1:30) {
 //   code: 'ERR_REQUIRE_ESM'
 // }
 //
