@@ -1,0 +1,33 @@
+{
+  "name": "@yellowcab/ts-hybrid-lib",
+  "version": "1.0.0",
+  "description": "A simple typescript library exporting dual module syntax",
+  "main": "dist/cjs/index.js",
+  "module": "dist/mjs/index.js",
+  "exports": {
+    ".": {
+      "require": "./dist/cjs/index.js",
+      "import": "./dist/mjs/index.js"
+    }
+  },
+  "scripts": {
+    "build:cjs": "rm -rf dist/cjs && tsc -p tsconfig.cjs.json && sh ./scripts/mount-cjs-package-json.sh",
+    "build:mjs": "rm -rf dist/mjs && tsc -p tsconfig.mjs.json && sh ./scripts/mount-mjs-package-json.sh",
+    "build": "npm run build:cjs && npm run build:mjs"
+  },
+  "files": [ "dist/*" ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yell0wcab/nodejs-modules.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yell0wcab/nodejs-modules/issues"
+  },
+  "homepage": "https://github.com/yell0wcab/nodejs-modules/tree/main/ts-hybrid-lib#readme",
+  "devDependencies": {
+    "@types/node": "^22.8.4",
+    "typescript": "^5.6.3"
+  }
+}
