@@ -3,10 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "type": "commonjs",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@yellowcab/js-commonjs-lib": "^1.0.1",
+    "@yellowcab/js-esm-lib": "^1.0.1",
+    "@yellowcab/js-explicit-hybrid-lib": "^1.0.4",
+    "@yellowcab/js-hybrid-lib": "^1.0.3"
+  }
 }
