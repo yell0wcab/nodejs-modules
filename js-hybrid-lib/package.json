@@ -1,6 +1,6 @@
 {
   "name": "@yellowcab/js-hybrid-lib",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple javascript library exporting dual module syntax",
   "main": "dist/cjs/index.js",
   "module": "dist/mjs/index.mjs",
@@ -13,12 +13,12 @@
   "files": [ "dist/*" ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yell0wcab/node-modules.git"
+    "url": "git+https://github.com/yell0wcab/nodejs-modules.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yell0wcab/node-modules/issues"
+    "url": "https://github.com/yell0wcab/nodejs-modules/issues"
   },
-  "homepage": "https://github.com/yell0wcab/node-modules/tree/main/js-hybrid-lib#readme"
+  "homepage": "https://github.com/yell0wcab/nodejs-modules/tree/main/js-hybrid-lib#readme"
 }
